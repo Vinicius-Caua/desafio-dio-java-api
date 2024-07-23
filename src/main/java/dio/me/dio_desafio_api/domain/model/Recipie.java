@@ -10,7 +10,6 @@ public class Recipie {
 
     private String name;
 
-    @Column(columnDefinition = "TINYINT(1) CHECK (classification BETWEEN 0 AND 5)")
     private Integer classification;
 
     public Long getId() {
